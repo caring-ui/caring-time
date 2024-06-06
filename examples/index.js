@@ -2,7 +2,7 @@
  * @Author: Wanko
  * @Date: 2023-02-15 18:43:50
  * @LastEditors: Wanko
- * @LastEditTime: 2024-06-06 15:35:39
+ * @LastEditTime: 2024-06-06 15:50:53
  * @Description: 入口文件
  */
 
@@ -21,7 +21,7 @@ import {
   isBetween,
   updateLocale,
   relativeTime
-} from '../dist/index.js'
+} from '../src/index.js'
 
 
 console.log(time())

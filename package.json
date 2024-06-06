@@ -1,31 +1,31 @@
 {
   "name": "caring-time",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
-  "main": "dist/index.js",
-  "files": [
-    "dist"
-  ],
   "scripts": {
     "dev": "nodemon examples/server.js",
     "build": "rollup -c",
     "pub": "sh release.sh",
     "prepub": "npm run build"
   },
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^26.0.1",
     "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/plugin-terser": "^0.4.0",
+    "dayjs": "^1.11.11",
     "express": "^4.18.2",
     "rollup": "^3.15.0",
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.1",
     "webpack-dev-middleware": "^6.0.1",
     "webpack-hot-middleware": "^2.25.3"
-  },
-  "dependencies": {
-    "dayjs": "^1.11.11"
   }
 }
